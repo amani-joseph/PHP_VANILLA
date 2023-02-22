@@ -16,12 +16,12 @@
             </svg>
           </button>
         </div>
-        <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:gap-x-12">
-          <a href="/" class="<?php if($_SERVER['REQUEST_URI'] === "/"){echo "rounded-lg  border-double border-4 border-sky-500";}?> font-semibold text-gray-900 hover:text-gray-900">HOME</a>
+        <div class="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-center lg:align-bottom lg:gap-x-12">
+          <a href="/" class="<?php if($_SERVER['REQUEST_URI'] === "/"){echo "rounded-lg  border-double border-4 border-sky-500 px-3 py-1 text-center ";}?> font-semibold text-gray-900 hover:text-gray-900">HOME</a>
 
-          <a href="/about" class="<?php if($_SERVER['REQUEST_URI'] === "/about"){echo "rounded-lg  border-double border-4 border-sky-500";}?> font-semibold text-gray-900 hover:text-gray-900">ABOUT</a>
+          <a href="/about" class="<?php if($_SERVER['REQUEST_URI'] === "/about"){echo "rounded-lg  border-double border-4 border-sky-500 px-3 py-1 text-center ";}?> font-semibold text-gray-900 hover:text-gray-900">ABOUT</a>
 
-          <a href="/contact" class="<?php if($_SERVER['REQUEST_URI'] === "/contact"){echo "rounded-lg  border-double border-4 border-sky-500";}?> font-semibold text-gray-900 hover:text-gray-900">CONTACT</a>
+          <a href="/contact" class="<?php if($_SERVER['REQUEST_URI'] === "/contact"){echo "rounded-lg  border-double border-4 border-sky-500 px-3 py-1 text-center ";}?> font-semibold text-gray-900 hover:text-gray-900">CONTACT</a>
 
           
         </div>
